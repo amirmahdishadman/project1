@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     char fullname[] ={'m','a','h','d','i'};
-    char* name=&fullname;
-    cout<<*name;
+   for(int i=0;i<5;i++){
+    cout<<fullname[i];
+}
 }
